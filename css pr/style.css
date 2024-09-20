@@ -1,0 +1,140 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family:"Open Sans";
+    font-weight:700;
+}
+#navbar1{
+    display:flex;
+    list-style: none none;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    margin: 0px;
+    background-color: #333;
+    padding:0px;
+    font-family: "Oswald";
+    justify-content: space-around;
+    
+}
+#navbar2{
+    display:flex;
+    list-style: none none;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    margin: 0px;
+    background-color: #ffffff;
+    padding:0px;
+    font-family: "Oswald";
+    justify-content: left;
+    
+    
+}
+    .list_link{
+        display: flex;
+        list-style:none;
+        align-items: baseline;
+
+    }
+    .list_link #REQUESTAQUOTE{
+        background-color: orange;
+    }
+    .list_link .link{
+        padding: 0 5rem 0 5rem;
+
+    }
+    .list_link .link .l1{
+        text-decoration: none;
+        color:#ffffff;
+        font-size: 0.9rem;
+    }
+    .list_link .link .l2{
+        text-decoration: none;
+        color:orange;
+        font-size: 0.9rem;
+    }
+.button{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#order{
+
+    color:orange;
+    text-decoration: none;
+}
+#par{
+    text-align: center;
+}
+#idunno{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+        #logo1{ 
+            margin-top:0%;
+    
+        }
+        #signin{
+            display:inline;
+            margin:55px;
+            
+        }
+        #redister{
+            display:inline;
+            margin:55px;
+           
+        }
+        #cart{
+            display:inline;
+            margin:55px;
+            
+        }
+        .container{
+           width:100%;
+           height: 100%;
+           background-color:white;
+           display:flex;
+           align-items:center;
+           justify-content:center ;
+
+        }
+        form{
+            
+            background: white;
+            width:600px;
+            height:55px;
+            display: flex;
+        }
+        form input{
+            flex:1;
+            border:none;
+            outline:none;
+        } 
+form button{
+    background:orange;
+    padding:10px 50px;
+    border:none;
+    outline:none;
+    color:white;
+    letter-spacing:1px;
+    cursor:pointer;
+}
